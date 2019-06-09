@@ -5,9 +5,13 @@
     background: #EFF1ED;
 }
 
+body {
+    padding-bottom: 100px;
+}
+
 header {
     margin: 0 0 5px 0;
-    padding: 0 10%;
+    padding: 0 20%;
     height: 50px;
     background: #FCFFF9;
     box-shadow: 0 0 2px 0;
@@ -24,8 +28,8 @@ h1 {
 
 ul {
     position: absolute;
-    right: 10%;
-    top: 3px;;
+    right: 20%;
+    top: 3px;
     list-style-type: none;
     margin: 0;
     padding: 12.5px 0;
@@ -52,19 +56,32 @@ li a {
 }
 
 #about-me {
-    margin: 25px 10% 0 10%;
+    margin: 25px 20% 0 20%;
     padding: 10px;
     background: #FCFFF9;
     overflow: hidden;
     border: 1px solid #949693;
+    color: #414240;
+    padding-bottom: 25px;
+}
+
+#gallery {
+    margin: 25px 20% 0 20%;
+    padding: 10px;
+    background: #FCFFF9;
+    overflow: hidden;
+    border: 1px solid #949693;
+    padding-bottom: 50px;
+    color: #414240;
 }
 
 h3 {
     line-height: 20px;
     padding: 10px 0;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #949693;
     margin-bottom: 10px;
     background: #FCFFF9;
+    color: #414240;
 }
 
 #profile-pic {
@@ -86,7 +103,7 @@ article p {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     margin: 0;
@@ -117,6 +134,9 @@ input {
     line-height: 20px;
     background: #FCFFF9;
     border: 1px solid #949693;
+    color: #414240;
+    font-size: 20px;
+    padding: 3px;
 }
 
 #message {
@@ -125,6 +145,9 @@ input {
     background: #FCFFF9;
     height: 250px;
     border: 1px solid #949693;
+    padding: 3px;
+    font-size: 15px;
+    color: #414240;
 }
 
 #submit {
@@ -133,6 +156,7 @@ input {
     color: #EFF1ED;
     border: none;
     padding: 2.5px;
+    font-size: 15px;
 }
 
 .grid-container {
@@ -174,7 +198,7 @@ input {
     top:10px;
     margin: 0;
     z-index: 50;
-    padding: 2.5px;
+    padding: 3px;
     text-align: center;
     border-radius: 10px 0 10px 0;
 }
