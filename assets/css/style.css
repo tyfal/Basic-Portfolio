@@ -106,3 +106,31 @@ footer p {
     color: #FCFFF9;
     text-align: center;
 }
+
+form {
+    background: #FCFFF9;
+}
+
+input {
+    width: 98%;
+    margin:1%;
+    line-height: 20px;
+    background: #FCFFF9;
+    border: 1px solid #949693;
+}
+
+#message {
+    width: 98%;
+    margin:1%;
+    background: #FCFFF9;
+    height: 250px;
+    border: 1px solid #949693;
+}
+
+#submit {
+    width:75px;
+    background: #A93F55;
+    color: #EFF1ED;
+    border: none;
+    padding: 2.5px;
+}
