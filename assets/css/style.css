@@ -108,6 +108,7 @@ h3 {
 }
 
 article {
+    margin-top: 20px;
     background: #FCFFF9;
 }
 
@@ -126,6 +127,7 @@ footer {
     text-align: center;
     color: #FCFFF9;
     border-top: 5px solid #A93F55;
+    z-index: 200;
 }
 
 footer p {
@@ -217,4 +219,3 @@ input {
     text-align: center;
     border-radius: 10px 3px 10px 3px;
 }
-
